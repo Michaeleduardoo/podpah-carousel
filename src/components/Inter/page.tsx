@@ -4,9 +4,11 @@ import { TiHeartOutline, TiMessages, TiPrinter, TiUser } from "react-icons/ti";
 
 function Inter() {
   const [liked, setLiked] = useState(false);
+  const [likeCount, setLikeCount] = useState(802);
 
   const handleLikeClick = () => {
     setLiked(!liked);
+    setLikeCount(liked ? likeCount - 1 : likeCount + 1);
   };
 
   const handlePrintClick = () => {
@@ -57,8 +59,7 @@ function Inter() {
           </a>
         </button>
       </div>
-
-      <p>802 Curtidas</p>
+      <p>{likeCount} Curtidas</p>
       <p>Momentos de tranquilidades ✨🎙️</p>
     </>
   );
