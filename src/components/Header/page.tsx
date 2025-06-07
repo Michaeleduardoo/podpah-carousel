@@ -1,5 +1,5 @@
 import { FcApproval } from "react-icons/fc";
-import ImageHeader from "../Image/Header/image-Ana.png";
+import ImageHeader from "../Image/Header/image-podpah.png";
 
 function Header() {
   return (
@@ -7,7 +7,7 @@ function Header() {
       <header>
         <img src={ImageHeader} alt="profile image" />
         <div>
-          <p>_anasouza29_</p>
+          <p>podpah</p>
           <FcApproval />
         </div>
       </header>
