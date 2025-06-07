@@ -49,7 +49,7 @@ function Inter() {
 
         <button title="Usuário 👩">
           <a
-            href="https://www.instagram.com/_anasouza29_/"
+            href="https://www.instagram.com/podpah/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -59,7 +59,7 @@ function Inter() {
       </div>
 
       <p>802 Curtidas</p>
-      <p>Momentos de tranquilidades ✨💕</p>
+      <p>Momentos de tranquilidades ✨🎙️</p>
     </>
   );
 }
